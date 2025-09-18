@@ -8,7 +8,7 @@ metadata:
 spec:
   storageClassName: gp3-csi
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   resources:
     requests:
       storage: 10Gi
